@@ -1,15 +1,18 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Calcular IVA y total con IVA
 """
 
 # Declaraciones
-CONSTANTE = valor
+TASA_IVA = 0.16
 
 # Entradas
-entrada = input()
+cantidad = float(input("Cantidad: "))
 
 # Proceso
+iva = cantidad * TASA_IVA
+total = cantidad + iva 
 
 
 # Salidas
-print(salida)
+print("IVA", iva)
+print("Total", total)
